@@ -1,34 +1,4 @@
-﻿	
-	GİT KURULUMU VE GİTHUB'DAN EĞİTİM İÇERİĞİNİN İNDİRİLMESİ
-===============================================================================
-1. Windows için gitbash yüklenir.
-https://git-scm.com/download
-Tüm varsayılan seçenekleri değiştirmeden kurulum yapalım.
-
-
-4. GitBash içinde
-
-çalışma dizni oluştur
-mkdir egitim/dizini
-cd egitim/dizini
-
-5. 
-git config --global user.name "Adınız Soyadınız"
-git config --global user.email "github account email"	
-
-
-6.
-git clone https://github.com/erkansirin78/machine-learning-with-python.git
-
-7.
-Github sayfasına gidin ve repoyu fork edin
-
-8.
-Tekrar komut satırında
-git remote set-url <fork edilmiş repo adresi>		
-
-
-
+﻿
 	PYTHON VE JUPYTER KURULUMU, TEMEL PAKETLERİN YÜKLENMESİ
 =======================================================================
 
@@ -83,12 +53,34 @@ komutları ile jupyter çalıştırılır.
 
 
 
-SAFHA-2 DERİN ÖĞRENME İLE İLGİLİ KURULUMLAR
+	
+	GİT KURULUMU VE GİTHUB'DAN EĞİTİM İÇERİĞİNİN İNDİRİLMESİ
 ===============================================================================
-Virtual environment ve tensorflow kurulumu için
-"01_virtual_env_and_tensorflow-1.14_installation.txt" dosyasını 
-kullanınız.
+1. Windows için gitbash yüklenir.
+https://git-scm.com/download
+Tüm varsayılan seçenekleri değiştirmeden kurulum yapalım.
 
+
+4. GitBash içinde
+
+çalışma dizni oluştur
+mkdir egitim/dizini
+cd egitim/dizini
+
+5. 
+git config --global user.name "Adınız Soyadınız"
+git config --global user.email "github account email"	
+
+
+6.
+git clone https://github.com/erkansirin78/machine-learning-with-python.git
+
+7.
+Github sayfasına gidin ve repoyu fork edin
+
+8.
+Tekrar komut satırında
+git remote set-url <fork edilmiş repo adresi>		
 	
 	
 	
